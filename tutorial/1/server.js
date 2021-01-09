@@ -12,10 +12,5 @@ bot.variables({
 })
 bot.command({
   name:"ping",
-  code:`$loop[30;sayhi]`
-})
-
-bot.awaitedCommand({
-  name:"sayhi",
-  code:`Hi <@$authorID>`
+  code:`Pong!`
 })
